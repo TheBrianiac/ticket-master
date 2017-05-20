@@ -29,7 +29,7 @@ public class Ticket {
 		this.setMessage(message);
 		this.setId(0);
 		this.setStatus(TicketStatus.PENDING);
-		this.setPriority(TicketPriority.NORMAL);
+		this.setPriority(TicketPriority.LOW);
 		this.comments = new TreeSet<TicketComment>(new TicketCommentDateComparator());
 	}
 	
